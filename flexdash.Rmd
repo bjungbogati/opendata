@@ -1,0 +1,39 @@
+---
+title: "Covid19"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+
+source("covid.R")
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Map
+
+```{r}
+map
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
